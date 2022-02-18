@@ -57,8 +57,8 @@ $(function () {
                 $(".contain2 > .d1 .lunbotu:first-child").css('margin-left', `${this.margin_left()}%`);
             },
             active_yuandian: function () {
-                $(".contain2 > .d3 img").attr("src", "pc/img/not_choosed_round.png");
-                $($(".contain2 > .d3 img")[this.num]).attr("src", "pc/img/choosed_round.png")
+                $(".contain2 > .d3 img").attr(https://58tha.net/pc/img/not_choosed_round.png);
+                $($(".contain2 > .d3 img")[this.num]).attr(https://58tha.net/pc/img/choosed_round.png)
             },
             lunbo: function () {
                 if (this.num == 3) {
