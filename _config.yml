@@ -1,4 +1,3 @@
-theme: jekyll-theme-cayman
 sitemap:
     path: sitemap.xml
     template: ./sitemap_template.xml
