@@ -1,6 +1,6 @@
 $(function () {
     /*璁剧疆閾炬帴銆佸浘鐗囥€佺綉鍧€*/
-    $(".wangzhi").text(`姘镐箙缍插潃锛�${wangzhi}`);
+    $(".wangzhi").text(`永久網址${wangzhi}`);
     $(".link_jingxiaoshang").attr('href', link_jingxiaoshang);
 	$(".line_link").attr('href', link_line);
     $(".jingxiaoshang_number").text(jingxiaoshang_number);
