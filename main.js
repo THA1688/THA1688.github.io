@@ -61,7 +61,7 @@ $(function () {
                 $($(".contain2 > .d3 img")[this.num]).attr("https://58tha.net/", "pc/img/choosed_round.png")
             },
             lunbo: function () {
-                if (this.num == 3) {
+                if (this.num == 1) {
                     this.num = 0;
                 } else {
                     this.num++;
