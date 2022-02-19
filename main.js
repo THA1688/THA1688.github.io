@@ -57,8 +57,8 @@ $(function () {
                 $(".contain2 > .d1 .lunbotu:first-child").css('margin-left', `${this.margin_left()}%`);
             },
             active_yuandian: function () {
-                $(".contain2 > .d3 img").attr("https://raw.githubusercontent.com/THA1688/tha1688.github.io/56deb5b5384b86ff2d80309a9b50ea24af8057c9/", "pc/img/not_choosed_round.png");
-                $($(".contain2 > .d3 img")[this.num]).attr("https://raw.githubusercontent.com/THA1688/tha1688.github.io/56deb5b5384b86ff2d80309a9b50ea24af8057c9/", "/pc/img/choosed_round.png")
+                $(".contain2 > .d3 img").attr("https://tha58.tw/", "pc/img/not_choosed_round.png");
+                $($(".contain2 > .d3 img")[this.num]).attr("https://tha58.tw/", "/pc/img/choosed_round.png")
             },
             lunbo: function () {
                 if (this.num == 1) {
