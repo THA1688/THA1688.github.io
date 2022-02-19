@@ -188,7 +188,7 @@ $(function () {
         function toogle_background(el) {
             var el = document.getElementById(el);
             var src2 = el.getAttribute('src2');
-            el.setAttribute('https://58tha.net/', src2);
+            el.setAttribute('src', src2);
         }
 
         function bind_clipboard(e, data, callback) {
@@ -220,7 +220,7 @@ $(function () {
 
         /*澶嶅埗缁忛攢鍟嗗彿鍒板壀璐存澘*/
         bind_clipboard('#tc4_button', jingxiaoshang_number, function () {
-            $(".tc4 .d3 img").attr('https://58tha.net/', $(".tc4 .d3 img").attr('src2'));
+            $(".tc4 .d3 img").attr('src', $(".tc4 .d3 img").attr('src2'));
             window.location.href = link_jingxiaoshang;
         });
     })();
