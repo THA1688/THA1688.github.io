@@ -1,5 +1,5 @@
 sitemap:
-  path: https://raw.githubusercontent.com/THA1688/THA1688.github.io/main/sitemap.xml
+  path: sitemap.xml
   template: ./sitemap_template.xml
   rel: false
   tags: true
