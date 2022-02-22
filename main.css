@@ -1,0 +1,398 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    background-color: #274D71;
+}
+
+#main > .content-container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+    #main > .content-container {
+
+    }
+}
+
+
+.bgd-contain {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.bgd-contain > img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+}
+
+.bgd-contain > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.content-container > div {
+    width: 100%;
+}
+
+.contain1 {
+    position: relative;
+}
+
+.contain1 .wangzhi {
+    position: absolute;
+    bottom: 20%;
+    right: 5px;
+    color: #A3AFBC;
+    font-size: 16px;
+}
+
+.contain2 {
+    position: relative;
+}
+
+.contain2 > .d1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.contain2 > .d1 .lunbotu {
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.contain2 > .d1 .lunbotu:first-child {
+    margin-left: -0%;
+    transition: margin-left 1s ease-in;
+}
+
+.contain2 > .d1 .bt1 {
+    width: 16.5%;
+    height: 13.1%;
+    position: absolute;
+    left: 3.8%;
+    bottom: 9.65%;
+}
+
+.contain2 > .d1 .bt2 {
+    width: 16.5%;
+    height: 13.1%;
+    position: absolute;
+    right: 8.2%;
+    bottom: 7.72%;
+}
+
+.contain2 > .d1 .bt3 {
+    width: 16.5%;
+    height: 13.1%;
+    position: absolute;
+    left: 4.46%;
+    bottom: 9.65%;
+}
+
+.contain2 > .d1 .bt4 {
+    width: 16.5%;
+    height: 13.1%;
+    position: absolute;
+    right: 6.06%;
+    bottom: 9.65%;
+}
+
+.contain2 > .d3 {
+    width: 14.25%;
+    height: 4%;
+    position: absolute;
+    right: 3.75%;
+    top: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contain2 > .d3 img {
+    height: 100%;
+}
+
+.contain3 {
+    margin-top: 10px;
+}
+
+.contain3 .d1 {
+    width: 100%;
+    height: 40.1%;
+    position: absolute;
+    bottom: 40.1%;
+}
+
+.contain3 .d2 {
+    width: 100%;
+    height: 40.1%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.contain3 .d3 {
+    width: 21%;
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    border: 0px solid red;
+}
+
+.contain3 .d3 img {
+    width: 100%;
+}
+
+.contain3 .zhuce_linqu {
+    width: 21.01%;
+    height: 18.75%;
+    position: absolute;
+    right: 0.75%;
+    top: 33.23%;
+    display: block;
+}
+
+.contain3 .kefu_linqu {
+    width: 21.01%;
+    height: 18.75%;
+    position: absolute;
+    right: 0.75%;
+    bottom: 10.51%;
+    cursor: pointer;
+}
+
+.contain3 .zhuce_linqu img, .contain3 .kefu_linqu img {
+    width: 100%;
+    height: 100%;
+}
+
+.contain4 {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain4 > div {
+    width: 100%;
+    height: 100%;
+    background-color: #1F3E5A;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #CDD1D2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain5, .contain6, .contain7 {
+    padding: 0 20px;
+}
+
+.contain5 img {
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contain6 > .d2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contain6 > .d2 .bt {
+    background-color: #3D789A;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #FAF6EC;
+    cursor: pointer;
+}
+
+.contain6 > .d2 .bt:first-child {
+    background-color: #E29440;
+}
+
+.contain6 > .d3 > div {
+    display: none;
+}
+
+.contain6 > .d3 > div:first-child {
+    display: block;
+}
+
+.contain6 .button1 {
+    width: 16.4%;
+    height: 19.15%;
+    position: absolute;
+    left: 2.8%;
+    bottom: 7%;
+}
+
+.contain6 .button2 {
+    width: 16.4%;
+    height: 19.15%;
+    position: absolute;
+    left: 2.8%;
+    bottom: 11.59%;
+}
+
+.contain6 .button3 {
+    width: 16.4%;
+    height: 19.15%;
+    position: absolute;
+    left: 2.8%;
+    bottom: 11.59%;
+}
+
+.contain6 .button4 {
+    width: 16.4%;
+    height: 19.15%;
+    position: absolute;
+    left: 2.8%;
+    bottom: 7%;
+}
+
+.contain6 .button5 {
+    width: 16.4%;
+    height: 19.15%;
+    position: absolute;
+    left: 2.8%;
+    bottom: 11.59%;
+}
+
+.contain6 .button6 {
+    width: 16.4%;
+    height: 19.15%;
+    position: absolute;
+    left: 2.8%;
+    bottom: 7%;
+}
+
+.contain6 .button7 {
+    width: 16.4%;
+    height: 19.15%;
+    position: absolute;
+    left: 2.8%;
+    bottom: 11%;
+}
+
+.contain7 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.contain7 .d1 {
+    width: 12.33%;
+    height: 13.89%;
+    position: absolute;
+    left: 3.93%;
+    bottom: 0%;
+}
+
+.contain7 .d2 {
+    width: 12.33%;
+    height: 13.89%;
+    position: absolute;
+    left: 30%;
+    bottom: 0%;
+}
+
+.contain7 .d3 {
+    width: 12.33%;
+    height: 13.89%;
+    position: absolute;
+    left: 56.07%;
+    bottom: 0%;
+}
+
+.contain7 .d4 {
+    width: 12.33%;
+    height: 13.89%;
+    position: absolute;
+    left: 83.7%;
+    bottom: 0%;
+}
+
+.contain8 {
+    width: 50% !important;
+    margin: 0 auto 40px auto;
+}
+
+.xuanfu.left {
+    width: 200px !important;
+    position: absolute;
+    left: -220px;
+    top: 190px;
+    cursor: pointer;
+}
+
+.xuanfu.right {
+    width: 200px !important;
+    position: absolute;
+    right: -240px;
+    top: 190px;
+    cursor: pointer;
+}
+
+.xuanfu .img {
+    width: 61%;
+    height: 56.5%;
+    position: absolute;
+    left: 14%;
+    top: 13.1%;
+}
+
+.xuanfu .number {
+    width: 66.6%;
+    height: 14.99%;
+    position: absolute;
+    left: 7%;
+    bottom: 1.5%;
+    color: #FEFAF3;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
