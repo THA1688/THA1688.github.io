@@ -2,3 +2,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://tha1688.github.io/sitemap.xml
+Sitemap: https://tha1688.github.io/sitemap.xml
