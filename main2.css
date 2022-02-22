@@ -1,0 +1,241 @@
+/*-------------------------------撘寧��---------------------------*/
+.tc-contain {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.tc-contain > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.tc-contain .bkd {
+    background-color: #160927;
+    opacity: 0.6;
+}
+
+.tc-contain .contents {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.tc-contain .tc1 {
+    width: 33.26%;
+    display: none;
+}
+
+.tc-contain .tc1 .likai, .tc-contain .tc1 .zhuce {
+    position: absolute;
+    width: 43.1%;
+    height: 15%;
+    top: 77.8%;
+}
+
+.tc-contain .tc1 .likai {
+    left: 4.88%;
+}
+
+.tc-contain .tc1 .zhuce {
+    right: 4.88%;
+}
+
+.tc-contain .tc2 {
+    width: 25%;
+    display: none;
+}
+
+.tc-contain .tc2 .likai {
+    position: absolute;
+    width: 9%;
+    height: 7%;
+    top: 1.5%;
+    right: 3%;
+}
+
+.tc-contain .tc2 .zhuce {
+    position: absolute;
+    width: 32%;
+    height: 25%;
+    top: 75%;
+    left: 34%;
+}
+
+    .tc-contain .tc3 {
+    display: none;
+    width: 350px;
+    height: 80px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+.tc-contain .tc3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #169BD5;
+    padding: 0 10px;
+    border-radius: 3px;
+}
+
+/*tc4*/
+.tc4 {
+    width: 30%;
+}
+
+.tc-contain .tc4 .d1, .tc-contain .tc4 .d2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #FAF8F8;
+}
+
+.tc-contain .tc4 .d1 {
+    width: 46.4%;
+    height: 7.4%;
+    position: absolute;
+    left: 45.3%;
+    top: 46%;
+    border-radius: 5px;
+}
+
+.tc-contain .tc4 .d2 {
+    width: 46.4%;
+    height: 7.3%;
+    position: absolute;
+    left: 45.3%;
+    top: 57%;
+    border-radius: 5px;
+}
+
+.tc-contain .tc4 .d3 {
+    width: 100%;
+    height: 12.5%;
+    position: absolute;
+    left: 0;
+    top: 68%;
+}
+
+.tc-contain .tc4 .d3 img {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.tc-contain .tc4 .d4 {
+    width: 100%;
+    height: 9.7%;
+    position: absolute;
+    left: 0;
+    top: 68%;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    font-size: 1.3em;
+    font-weight: 800;
+    color: #FFE50F;
+
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tc-contain .tc4 .d4 span:nth-child(3) {
+    color: white;
+}
+
+
+.tc-contain .tc4 .d5 {
+    width: 100%;
+    height: 12.5%;
+    position: absolute;
+    left: 0;
+    top: 81%;
+}
+
+.tc-contain .tc4 .d5 img {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.tc-contain .tc4 .d6 {
+    width: 100%;
+    height: 9.7%;
+    position: absolute;
+    left: 0;
+    top: 81%;
+
+    display: -webkit-box;
+
+    display: -webkit-flex;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    font-size: 1.3em;
+    font-weight: 800;
+    color: white;
+
+    overflow: hidden;
+    cursor: pointer;
+}
