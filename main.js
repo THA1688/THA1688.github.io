@@ -121,7 +121,6 @@ $(function () {
             var cookie_name = "fd_last_access_time";
             var now_date = new Date().getDate() + '';
             var time = Cookies.get(cookie_name);
-            console.log(time);
             var is_first = false;
             if (time == undefined) {
                 is_first = true
